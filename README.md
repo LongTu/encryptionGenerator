@@ -15,10 +15,10 @@ go install encryptionGenerator/
 If you have a username and password to encrypt.
 
 ```
-go run influxdbUrl/encryptionGenerator.go ${YOUR_USERNAME}
-go run influxdbUrl/encryptionGenerator.go ${YOUR_PASSWORD}
-go run influxdbUrl/encryptionGenerator.go ${YOUR_URL_TO_DATABASE}
-go run influxdbUrl/encryptionGenerator.go ${YOUR_DATABASE_NAME}
+go run encryptionGenerator/encryptionGenerator.go ${YOUR_USERNAME}
+go run encryptionGenerator/encryptionGenerator.go ${YOUR_PASSWORD}
+go run encryptionGenerator/encryptionGenerator.go ${YOUR_URL_TO_DATABASE}
+go run encryptionGenerator/encryptionGenerator.go ${YOUR_DATABASE_NAME}
 ```
 This will generate a encryted version of your username, password, databseUrl and databaseName
 
