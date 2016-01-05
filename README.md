@@ -1,4 +1,4 @@
-# influxdbUrl
+# encryptionGenerator
 
 This is a helper project to let frontend code connect to backend influxdb databse.
 By default, this service is bind to port 18080
@@ -8,7 +8,7 @@ https://golang.org/doc/install
 
 
 
-build all go file in influxdbUrl project
+build all go file in encryptionGenerator project
 ```
 go install encryptionGenerator/
 ```
